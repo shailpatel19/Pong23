@@ -17,6 +17,7 @@
 		686FFF482281D07D00A6CADE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 686FFF462281D07D00A6CADE /* LaunchScreen.storyboard */; };
 		686FFF532281D07D00A6CADE /* Pong2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686FFF522281D07D00A6CADE /* Pong2Tests.swift */; };
 		686FFF5E2281D07D00A6CADE /* Pong2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686FFF5D2281D07D00A6CADE /* Pong2UITests.swift */; };
+		68DB21B02281F8E10023C92C /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DB21AF2281F8E10023C92C /* Menu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		686FFF592281D07D00A6CADE /* Pong2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pong2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		686FFF5D2281D07D00A6CADE /* Pong2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pong2UITests.swift; sourceTree = "<group>"; };
 		686FFF5F2281D07D00A6CADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68DB21AF2281F8E10023C92C /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				686FFF3D2281D07B00A6CADE /* GameScene.swift */,
 				686FFF3F2281D07B00A6CADE /* GameViewController.swift */,
 				686FFF412281D07B00A6CADE /* Main.storyboard */,
+				68DB21AF2281F8E10023C92C /* Menu.swift */,
 				686FFF442281D07D00A6CADE /* Assets.xcassets */,
 				686FFF462281D07D00A6CADE /* LaunchScreen.storyboard */,
 				686FFF492281D07D00A6CADE /* Info.plist */,
@@ -213,7 +216,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 686FFF2F2281D07B00A6CADE /* Build configuration list for PBXProject "Pong2" */;
+			buildConfigurationList = 686FFF2F2281D07B00A6CADE /* Build configuration list for PBXProject "tabelTennis " */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -269,6 +272,7 @@
 			files = (
 				686FFF3E2281D07B00A6CADE /* GameScene.swift in Sources */,
 				686FFF402281D07B00A6CADE /* GameViewController.swift in Sources */,
+				68DB21B02281F8E10023C92C /* Menu.swift in Sources */,
 				686FFF382281D07B00A6CADE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,6 +451,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D9J349C4YQ;
 				INFOPLIST_FILE = Pong2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,6 +470,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D9J349C4YQ;
 				INFOPLIST_FILE = Pong2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -561,7 +567,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		686FFF2F2281D07B00A6CADE /* Build configuration list for PBXProject "Pong2" */ = {
+		686FFF2F2281D07B00A6CADE /* Build configuration list for PBXProject "tabelTennis " */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				686FFF602281D07D00A6CADE /* Debug */,
